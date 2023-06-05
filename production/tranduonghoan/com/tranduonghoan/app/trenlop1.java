@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class trenlop1 {
     public static void main(String[] args) {
 
-        int[] intArray = {1,3,4,5,6,6};
+        int[] intArray = {1,4,7,6,2,3};
         int[] newArr = new int[intArray.length];
 
         for (int i=0; i<intArray.length; i++) {
@@ -15,9 +15,6 @@ public class trenlop1 {
             else{
                 newArr[i] = intArray[i];
             }
-
-        }
-        for (int i=0; i<intArray.length; i++){
             System.out.println(newArr[i]);
         }
     }
